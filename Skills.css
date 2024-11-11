@@ -1,0 +1,129 @@
+body{
+  background-image: url("home.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  font-family: 'Armata';
+}
+
+.container{
+  background-color: rgb(51, 51, 51, 75%);
+  border-style: double;
+  border-color: white;
+  border-radius: 8px;
+  padding: 10px;
+  margin: auto auto 5px auto;
+}
+
+.button {
+      background-color: rgb(51, 51, 51, 75%);
+      border-style: groove;
+      border-color: turquoise;
+      border-radius: 8px;
+      color: white;
+      padding: 2px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 18px;
+      cursor: pointer;
+}
+
+#navigation{
+  padding: 20px;
+}
+
+#images{
+  height: auto;
+}
+
+.image{
+ 
+  background-repeat: no repeat;
+  height: 500px;
+  width: 1000px;
+  background-size: cover;
+  border: 4px solid white;
+  margin: 30px;
+
+}
+
+.image-text{
+  position: relative;
+  text-align: center;
+  top: 500px;
+}
+
+#jumbotron{
+  background-image: url("jumbotron.png");
+  background-position: center;
+}
+
+#responsive-tables{
+  background-image: url("responsive-tables.png");
+  background-position: center;
+}
+
+#menu{
+  background-image: url("menu.png");
+  background-position: center;
+}
+
+#typography{
+  background-image: url("typography.png");
+  background-position: center;
+}
+
+#grid-systems{
+  background-image: url("grid-systems.png");
+  background-position: center;
+}
+
+#bootstrap{
+  background-image: url("bootstrap.png");
+  background-position: center;
+}
+
+#python-code{
+  background-image: url("python-code.png");
+  background-position: center;
+}
+
+#python-output{
+  background-image: url("python-output.png");
+}
+
+#c_code{
+  background-image: url("c_code.png");
+  background-position: center;
+}
+
+#c_output{
+  background-image: url("c_output.png");
+}
+
+#java-code{
+  background-image: url("java-code.png");
+  background-position: center;
+}
+
+#java-output{
+  background-image: url("java-output.png");
+  background-position: center;
+}
+
+a:hover{
+  background-color: #a6a6a6;
+  transition-duration: 0.8s;
+}
+
+a{
+  color: turquoise;
+}
+
+.background{
+  padding: 50px;
+}
